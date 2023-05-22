@@ -1,0 +1,34 @@
+
+.message-container {
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  background-color: #36393f;
+  margin-bottom: 10px;
+}
+
+.message-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.message-sender {
+  font-weight: bold;
+  color: #fff;
+}
+
+.message-time {
+  color: #72767d;
+  font-size: 12px;
+}
+
+.message-content {
+  color: #fff;
+}
+
+.message-body {
+  margin: 0;
+  word-break: break-word;
+}

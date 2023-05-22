@@ -1,0 +1,32 @@
+.show-win-container {
+  display: flex;
+  justify-content: center;
+  margin: 16px 0;
+}
+
+.show-win {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #2D3748;
+  padding: 16px;
+  border: 2px solid #1A202C;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  margin-bottom: 16px;
+  width: 600px;
+}
+
+.show-win img {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  margin-right: 16px;
+}
+
+.show-win p {
+  margin: 0;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #E5E7EB;
+}

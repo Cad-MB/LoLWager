@@ -1,0 +1,64 @@
+.top-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  background-color: #000;
+  z-index: 100;
+}
+
+.top-bar img {
+  height: 40px;
+}
+
+.top-bar .logo-container {
+  display: flex;
+  align-items: center;.top-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+}
+
+.top-bar .logo-container img {
+  margin-right: 8px;
+}
+
+.top-bar .logo-container .logo-text {
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.top-bar button {
+  background-color: transparent;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-left: 24px;
+  padding: 12px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.top-bar button:hover {
+  color: #c9aa71;
+}
+
+.top-bar input {
+  flex-grow: 1;
+  height: 30px;
+  padding: 5px;
+  border: none;
+  border-radius: 4px;
+  margin-right: 24px;
+  font-size: 14px;
+}

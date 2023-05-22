@@ -1,0 +1,66 @@
+.tableau-joueur-container {
+  margin-top: 80px;
+  font-family: Arial, sans-serif;
+}
+
+.tableau-joueur {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #1a1a1a;
+  color: #fff;
+}
+
+.tableau-joueur th,
+.tableau-joueur td {
+  padding: 10px;
+  text-align: center;
+  border-bottom: 1px solid #333;
+}
+
+.tableau-joueur th {
+  background-color: #111;
+}
+
+.tableau-joueur tbody tr:nth-child(even) {
+  background-color: #222;
+}
+
+.tableau-joueur tbody tr:hover {
+  background-color: #333;
+}
+
+.tableau-joueur td:nth-child(1) {
+  font-weight: bold;
+}
+
+.tableau-joueur td:nth-child(2) {
+  text-transform: uppercase;
+}
+.tableau-joueur table{
+  width: 100%;
+  border-collapse: collapse;
+}
+.tableau-joueur-container > div:first-child {
+  text-align: center;
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.tableau-joueur input[type="text"] {
+  width: 100px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  margin-top: 5px; 
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.tableau-joueur input[type="number"]:focus {
+  outline: none;
+  background-color: #555;
+}

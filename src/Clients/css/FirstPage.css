@@ -1,0 +1,56 @@
+.first-page {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../../public/BackgroundFirstPage.png");
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+
+.background-image-container {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.background-image {
+  width: 100%;
+  height: 100%;
+}
+
+.welcome-text {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 4em;
+  color: #FFD700;
+  position: absolute;
+  top: 44%;
+  left: 24%;
+  transform: translate(-50%, -50%);
+  
+}
+
+.promo-text1 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 6em;
+  color: #FFD700;
+  position: absolute;
+  top: 30%;
+  left: 75%;
+  transform: translate(-50%, -50%);
+  
+}
+
+.promo-text2 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 2.5em;
+  color: #ffffff;
+  position: absolute;
+  top: 53%;
+  left: 75%;
+  transform: translate(-50%, -50%);
+  
+}
